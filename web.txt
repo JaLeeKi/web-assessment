@@ -1,0 +1,7 @@
+The internet works based off a series of networks, which is a whole bunch of computers having a method to communicate with one another. The internet works like a train station,
+the people or information loads onto a transportation method to get to a different location, similarly how computers are sending info to one another. You are essentially telling your
+local machine to talk to a server machine anywhere in the world to request information that the server should provide.
+
+When you click on a link, your machine send the request to the server. the server will then receive the request and begin processing the request. Once the server has completed the 
+requested action, the server will then process this info to send back to the original machine that submitted the request. The request has then been processed and the servers response
+to your request will be displayed on your browser.

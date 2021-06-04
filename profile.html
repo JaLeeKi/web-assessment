@@ -1,6 +1,82 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <a href="./home.html"><< Back </a>
+        <link href="styles.css" rel="stylesheet">
+    
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
 
-<br>
-<br>
+<button id="color" class='color'>My Favorite Color</button>
+<button id="place" class='place'>My Favorite Place</button>
+<button id="ritual" class='ritual'>My Favorite Ritual</button>
 
-<a href="./home.html"><< Back </a>
+	<content>
+		<h1>JADE KIRKHAM</h1>
+
+        <p>You are now browsing the Profile of our very first user! Shucks, aren't you special</p>
+        <br>
+        <h3>List of hobbies:</h3>
+        <ul>
+            <li>Playing Video Games</li>
+            <li>Coding</li>
+            <li>Fishing</li>
+            <li>Hiking</li>
+        </ul>
+        <br>
+        <h3>List of Family Members:</h3>
+        <ul>
+            <li>Darah</li>
+            <li>Dimitri</li>
+            <li>Brutus</li>
+            <li>Koda</li>
+        </ul>
+        <br>
+
+        <h5>Would you like to try and reach our first user?</h5>
+       
+        <h3>CONTACT HIM NOW:</h3>
+        <form id="contactFirstUser">
+
+			Your name:
+			<input type="text">
+            <br>
+
+			Email:
+			<input type="textarea">
+
+            <br>
+            <br>
+
+			What's your favorite Animal?:
+            <br><br>
+			<input type="radio" id="dogs" name='pets'>
+			<label for="dogs">Dogs are a mans best friend!</label>
+            <br><br>
+            <input type="radio" id="cats" name='pets'>
+			<label for="cats">Cats of course!</label>
+            <br><br>
+            <input type="radio" id="allOfThem" name='pets'>
+			<label for="allOfThem">All of them!</label>
+            <br>
+            <br>
+
+			<input type="submit">
+
+		</form>
+
+	</content>
+
+
+    <script src="profile.js"></script>
+
+</body>
+</html>
